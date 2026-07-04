@@ -1,0 +1,49 @@
+function C = colors()
+% COLORS Default colors associated with task conditions or model settings
+%
+% C = COLORS() returns a structure whose name of each field is the name of a task condition or model
+% setting, and the value of that field is a three-element array specifying the intensity of the red,
+% green, and blue component of the color.
+C = struct;
+C.unconditioned = [0,0,0];
+C.leftchoice = [0 174 239]/255;
+C.rightchoice = [141 4 175]/255;
+C.leftevidence = C.leftchoice;
+C.right = C.rightchoice;
+C.left = C.leftchoice;
+C.rightevidence = C.rightchoice;
+C.leftchoice_weak_leftevidence = [0.667602712               0.779706789               0.993625576];
+C.leftchoice_strong_leftevidence = C.leftchoice;
+C.rightchoice_weak_rightevidence = [0.968998399               0.721381489               0.612361865];
+C.rightchoice_strong_rightevidence = C.rightchoice;
+C.dmFC = [0                     0.447                     0.741];
+C.mPFC = [0.85                     0.325                     0.098];
+C.dStr = [0.929                     0.694                     0.125];
+% C.M1 = [0.494                     0.184                     0.556];
+C.vStr = [0.466                     0.674                     0.188];
+C.FOF = [0.635                     0.078                     0.184];
+C.choice = 0.5*[1,1,1];
+C.M1 = [1 0 0];
+C.evidenceaccumulation = [0.4588    0.4392    0.7020];
+C.choicemaintenance = [0.1059    0.6196    0.4667];
+C.halorhodopsin = [0.9569    0.4824    0.1255];
+C.opto = C.halorhodopsin;
+C.ctrl = zeros(1,3);
+C.intrinsic = zeros(1,3);
+C.leftinput = C.leftchoice;
+C.rightinput = C.rightchoice;
+C.input = [0.6941    0.4314    0.2745];
+C.ctrl = [0, 0, 0];
+C.ptrb = [0, 0.5, 0];
+C.phase1 = [0.4588    0.4392    0.7020];
+C.phase2 = [0.1059    0.6196    0.4667];
+C.steadystate = [0.6941    0.4314    0.2745];
+C.leftomission = [0.667602712               0.779706789               0.993625576];
+C.leftrewarded = C.leftchoice;
+C.rightomission = [0.968998399               0.721381489               0.612361865];
+C.rightrewarded = C.rightchoice;
+C.sensoryguided = [0.4588    0.4392    0.7020];
+C.valueguided = [0.1059    0.6196    0.4667];
+C.nTc = [ 0.949019607843137         0.447058823529412                         0];
+C.obsv = zeros(1,3);
+C.pred = [13, 137, 68]/255;

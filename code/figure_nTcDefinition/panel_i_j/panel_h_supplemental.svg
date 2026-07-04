@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 9.03 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.0" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 989 467.8"
+	 style="enable-background:new 0 0 989 467.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:1.3333;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:24px;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.6667;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#77AC30;fill-opacity:0.2;}
+	.st5{fill:none;stroke:#77AC30;stroke-width:2.6667;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#B3B3B3;stroke-width:1.3333;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:#B3B3B3;}
+	.st8{fill:none;stroke:#808080;stroke-width:1.3333;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:#808080;}
+	.st10{fill:none;stroke:#000000;stroke-width:1.3333;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{font-size:21.6px;}
+	.st12{fill:#77AC30;}
+	.st13{fill:none;stroke:#262626;stroke-width:1.3333;stroke-miterlimit:10;}
+	.st14{fill:none;}
+	.st15{fill:#CD6632;}
+	.st16{fill:#8D04AF;}
+	.st17{fill:#00AEEF;}
+	.st18{enable-background:new    ;}
+	.st19{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#B3B3B3;stroke-width:5;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#808080;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st22{letter-spacing:2;}
+	.st23{letter-spacing:17;}
+	.st24{font-family:'Arial-ItalicMT';}
+	.st25{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="339.5" width="890.2" x="-70.6" y="-3.1"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<line class="st0" x1="569.4" y1="346.7" x2="559.7" y2="346.7"/>
+<line class="st0" x1="219" y1="347.7" x2="543" y2="347.7"/>
+<line class="st0" x1="219" y1="347.7" x2="219" y2="357.3"/>
+<line class="st0" x1="543" y1="347.7" x2="543" y2="357.3"/>
+<text transform="matrix(1 0 0 1 212 387.8078)" class="st1 st2">0</text>
+<text transform="matrix(1 0 0 1 536 387.8078)" class="st1 st2">1</text>
+<line class="st0" x1="219" y1="347.7" x2="219" y2="126.7"/>
+<line class="st0" x1="219" y1="347.7" x2="209.3" y2="347.7"/>
+<line class="st0" x1="219" y1="276.9" x2="209.3" y2="276.9"/>
+<line class="st0" x1="219" y1="206.2" x2="209.3" y2="206.2"/>
+<line class="st0" x1="219" y1="135.5" x2="209.3" y2="135.5"/>
+<text transform="matrix(1 0 0 1 187.8433 356.6511)" class="st1 st2">0</text>
+<text transform="matrix(1 0 0 1 167.8433 285.9311)" class="st1 st2">0.2</text>
+<text transform="matrix(1 0 0 1 167.8433 215.2112)" class="st1 st2">0.4</text>
+<text transform="matrix(1 0 0 1 167.8433 144.4912)" class="st1 st2">0.6</text>
+<line class="st3" x1="219" y1="347.7" x2="543" y2="347.7"/>
+<path class="st4" d="M274,238v42.4l111.1-14.1l106-10.6l46.7-7.1v-12.4L491,238h-106H274z"/>
+<path class="st5" d="M274,255.7l111.1,1.8l106-12.4h46.7"/>
+<g>
+	<line class="st6" x1="274" y1="234.5" x2="274" y2="209.7"/>
+	<line class="st6" x1="385.1" y1="241.6" x2="385.1" y2="216.8"/>
+	<line class="st6" x1="491" y1="231" x2="491" y2="216.8"/>
+	<line class="st6" x1="537.7" y1="231" x2="537.7" y2="220.4"/>
+</g>
+<path class="st7" d="M274,220.2c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C270.3,221.9,272,220.2,274,220.2z
+	 M274,219.6c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C278.3,221.5,276.4,219.6,274,219.6z"/>
+<path class="st7" d="M385.1,223.8c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7
+	C381.4,225.4,383.1,223.8,385.1,223.8z M385.1,223.1c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0
+	C389.4,225,387.5,223.1,385.1,223.1z"/>
+<path class="st7" d="M491,220.2c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C487.4,221.9,489,220.2,491,220.2z
+	 M491,219.6c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C495.4,221.5,493.4,219.6,491,219.6z"/>
+<path class="st7" d="M537.7,220.2c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7c-2,0-3.7-1.6-3.7-3.7
+	C534.1,221.9,535.7,220.2,537.7,220.2z M537.7,219.6c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3c2.4,0,4.3-1.9,4.3-4.3l0,0
+	C542.1,221.5,540.1,219.6,537.7,219.6z"/>
+<path class="st4" d="M274,181.5v21.2l111.1-3.5l106-7.1l46.7-3.5v-10.6H491l-106,3.5H274z"/>
+<path class="st5" d="M274,192.1l111.1-3.5l106-3.5h46.7"/>
+<g>
+	<line class="st8" x1="274" y1="188.5" x2="274" y2="170.9"/>
+	<line class="st8" x1="385.1" y1="188.5" x2="385.1" y2="174.4"/>
+	<line class="st8" x1="491" y1="192.1" x2="491" y2="185"/>
+	<line class="st8" x1="537.7" y1="188.5" x2="537.7" y2="177.9"/>
+</g>
+<g>
+	<path class="st9" d="M274,177.8c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C270.3,179.4,272,177.8,274,177.8z
+		 M274,177.1c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C278.3,179.1,276.4,177.1,274,177.1z"/>
+	<path class="st9" d="M385.1,177.8c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7
+		C381.4,179.4,383.1,177.8,385.1,177.8z M385.1,177.1c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0
+		C389.4,179.1,387.5,177.1,385.1,177.1z"/>
+	<path class="st9" d="M491,183.1c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C487.4,184.7,489,183.1,491,183.1z
+		 M491,182.4c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C495.4,184.4,493.4,182.4,491,182.4z"/>
+	<path class="st9" d="M537.7,177.8c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7c-2,0-3.7-1.6-3.7-3.7
+		C534.1,179.4,535.7,177.8,537.7,177.8z M537.7,177.1c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3c2.4,0,4.3-1.9,4.3-4.3l0,0
+		C542.1,179.1,540.1,177.1,537.7,177.1z"/>
+</g>
+<path class="st4" d="M274,126.7v37.1l111.1-10.6l106,3.5l46.7,7.1v-16.3l-46.7-4.9l-106-10.6L274,126.7z"/>
+<path class="st5" d="M274,135.5l111.1,7.1l106,8.8l46.7,5.3"/>
+<line class="st10" x1="274" y1="146.1" x2="274" y2="128.4"/>
+<line class="st10" x1="385.1" y1="156.7" x2="385.1" y2="135.5"/>
+<line class="st10" x1="491" y1="160.2" x2="491" y2="146.1"/>
+<line class="st10" x1="537.7" y1="163.8" x2="537.7" y2="149.6"/>
+<path d="M274,131.8c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C270.3,133.5,272,131.8,274,131.8z M274,131.2
+	c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C278.3,133.1,276.4,131.2,274,131.2z"/>
+<path d="M385.1,142.4c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C381.4,144.1,383.1,142.4,385.1,142.4z
+	 M385.1,141.8c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C389.4,143.7,387.5,141.8,385.1,141.8z"/>
+<path d="M491,149.5c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7s-3.7-1.6-3.7-3.7C487.4,151.1,489,149.5,491,149.5z M491,148.8
+	c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3s4.3-1.9,4.3-4.3l0,0C495.4,150.8,493.4,148.8,491,148.8z"/>
+<path d="M537.7,153c2,0,3.7,1.6,3.7,3.7l0,0c0,2-1.6,3.7-3.7,3.7c-2,0-3.7-1.6-3.7-3.7C534.1,154.7,535.7,153,537.7,153z
+	 M537.7,152.4c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3c2.4,0,4.3-1.9,4.3-4.3l0,0C542.1,154.3,540.1,152.4,537.7,152.4z"/>
+<text transform="matrix(1 0 0 1 427.2523 304.518)" class="st1 st11">data</text>
+<text transform="matrix(1 0 0 1 427.2523 329.7841)" class="st12 st1 st11">simulation</text>
+<path class="st13" d="M328.1,336.7v-54h205.9v54H328.1z"/>
+<rect x="65.4" y="191.6" class="st14" width="88.9" height="194.9"/>
+<text transform="matrix(1 0 0 1 89.8328 208.7607)"><tspan x="0" y="0" class="st15 st1 st2">nTc </tspan><tspan x="-18.7" y="28.8" class="st15 st1 st2">relative </tspan><tspan x="-12.7" y="57.6" class="st15 st1 st2">to first </tspan><tspan x="-20.7" y="86.4" class="st15 st1 st2">click (s)</tspan></text>
+<text transform="matrix(1 0 0 1 179.1367 418.0031)"><tspan x="0" y="0" class="st1 st2">difficult ← |(</tspan><tspan x="126.3" y="0" class="st16 st1 st2">R</tspan><tspan x="143.6" y="0" class="st1 st2">-</tspan><tspan x="151.6" y="0" class="st17 st1 st2">L</tspan><tspan x="164.9" y="0" class="st1 st2">)/(</tspan><tspan x="187.6" y="0" class="st16 st1 st2">R</tspan><tspan x="204.9" y="0" class="st1 st2">+</tspan><tspan x="218.9" y="0" class="st17 st1 st2">L</tspan><tspan x="232.3" y="0" class="st1 st2">)| → easy trials</tspan></text>
+<text transform="matrix(1 0 0 1 336.7302 318.5742)" class="st9 st1 st2">95% CI</text>
+<text transform="matrix(1 0 0 1 572.1675 177.9231)" class="st18"><tspan x="0" y="0" class="st1 st2">longest tercile</tspan><tspan x="0" y="28.8" class="st1 st2">of trials</tspan><tspan x="0" y="86.4" class="st9 st1 st2">middle</tspan><tspan x="0" y="144" class="st7 st1 st2">shortest</tspan></text>
+<line class="st19" x1="559.7" y1="191.7" x2="559.7" y2="128.4"/>
+<line class="st20" x1="559.7" y1="347.7" x2="559.7" y2="250.4"/>
+<line class="st0" x1="569.4" y1="128.4" x2="559.7" y2="128.4"/>
+<line class="st21" x1="559.7" y1="250.4" x2="559.7" y2="191.7"/>
+<text transform="matrix(1 0 0 1 577.5297 135.4911)" class="st1 st2">1s</text>
+<text transform="matrix(1 0 0 1 575.4889 357.3408)" class="st1 st2">0</text>
+<text transform="matrix(1 0 0 1 679.6689 235.8127)"><tspan x="0" y="0" class="st1 st2">|(</tspan><tspan x="14.2" y="0" class="st16 st1 st2">R</tspan><tspan x="31.6" y="0" class="st1 st2">-</tspan><tspan x="39.6" y="0" class="st17 st1 st2">L</tspan><tspan x="52.9" y="0" class="st1 st2">)/(</tspan><tspan x="75.6" y="0" class="st16 st1 st2">R</tspan><tspan x="92.9" y="0" class="st1 st2">+</tspan><tspan x="106.9" y="0" class="st17 st1 st2">L</tspan><tspan x="120.2" y="0" class="st1 st2">)|</tspan><tspan x="134.5" y="0" class="st1 st2 st22">	</tspan><tspan x="144" y="0" class="st1 st2 st23">	</tspan><tspan x="168" y="0" class="st24 st2">p=0.013</tspan><tspan x="0" y="28.8" class="st9 st1 st2">click train </tspan><tspan x="0" y="57.6" class="st9 st1 st2">duration</tspan><tspan x="86.7" y="57.6" class="st1 st2 st22">	</tspan><tspan x="96" y="57.6" class="st1 st2 st23">			</tspan><tspan x="168" y="57.6" class="st24 st2">p=1e-56</tspan><tspan x="0" y="86.4" class="st1 st2">interaction</tspan><tspan x="110.7" y="86.4" class="st1 st2 st22">	</tspan><tspan x="120" y="86.4" class="st1 st2 st23">		</tspan><tspan x="168" y="86.4" class="st24 st2">p=0.002</tspan></text>
+<rect x="673.5" y="206.9" class="st25" width="281.6" height="127.6"/>
+<text transform="matrix(1 0 0 1 554.8142 106.8966)" class="st9 st1 st2">click train duration</text>
+</svg>
