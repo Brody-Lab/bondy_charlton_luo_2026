@@ -11,15 +11,3 @@ Adam Charles, Mark Goldman}#, Tim Harris, Carlos Brody*
 
 ------------------
 
-### Data availability
-Full data will be available upon publication.
-
-### Dependencies
-The code in this repository is primarily for generating the manuscript figures,
-and depends on several Brody Lab repositories:
-- [UberPhys](https://github.com/Brody-Lab/UberPhys) — main UberPhys code repository
-- [labwide_pbups_analysis](https://github.com/Brody-Lab/labwide_pbups_analysis) — Poisson Clicks behavioral analysis
-- [neuro_glmnet](https://github.com/Brody-Lab/neuro_glmnet) — GLM fitting with elastic-net regularization
-- [FHMDDM](https://github.com/Brody-Lab/FHMDDM) — fitting MMDDM to the UberPhys dataset
-- [ExperPort](https://github.com/Brody-Lab/ExperPort) and [bl_pipeline_python](https://github.com/Brody-Lab/bl_pipeline_python) — Brody Lab relational databases
-- and others
