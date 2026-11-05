@@ -2,8 +2,9 @@
 regions=common.get_brain_regions;
 colors=uberphys.get_brain_region_colors(regions);
 figure;
+ggg=mean(cat(1,mns_lags{2:end}));
 for i=1:10
-    errorbar(mns_lags_resamp(i),mns(i),sds(i),sds(i),sds_lags_resamp(i),sds_lags_resamp(i),'capsize',0,'color',colors(i,:));
+    errorbar(a(i),mns(i),sds(i),sds(i),sds_lags_resamp(i),sds_lags_resamp(i),'capsize',0,'color',colors(i,:));
 end
 ylabel('PC1 Loading');sds
 

@@ -2,7 +2,7 @@ fig_path=fileparts(which(mfilename));
 params.thre_trial = 1200;
 rat="C211";
 rat_idx = startsWith(path,rat);
-make_dv_corr_data_fig_abruptCommitment;
+make_dv_corr_data_fig_abruptCommitment_ed;
 
 regions = [output.region];
 [a,b] = ismember(DV.get_brain_regions,regions);

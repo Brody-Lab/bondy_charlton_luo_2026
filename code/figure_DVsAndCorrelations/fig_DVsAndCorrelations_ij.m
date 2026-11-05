@@ -7,10 +7,10 @@
 field = 'log_odds_same_lambda';
 ref_event = "committime_s_all";
 time_lim_s = [-Inf 0];
- % res = DV.load_DVs('fit_average',false,'reward_reversal',false,'ref_event','first_click','alpha',0.95,'variable','choice','by_hemisphere',true,'smooth_sd',0.05,'frozen',false);
- % res=res(logical(sessions.frozen)); 
-% res_shuffle = DV.load_DVs('fit_average',false,'reward_reversal',false,'ref_event','first_click','alpha',0.95,'variable','choice','by_hemisphere',true,'shuffle_cells',true,'frozen',false);
-%  res_shuffle=res_shuffle(logical(sessions.frozen));
+ res = DV.load_DVs('fit_average',false,'reward_reversal',false,'ref_event','first_click','alpha',0.95,'variable','choice','by_hemisphere',true,'smooth_sd',0.05,'frozen',false);
+ res=res(logical(sessions.frozen)); 
+res_shuffle = DV.load_DVs('fit_average',false,'reward_reversal',false,'ref_event','first_click','alpha',0.95,'variable','choice','by_hemisphere',true,'shuffle_cells',true,'frozen',false);
+ res_shuffle=res_shuffle(logical(sessions.frozen));
 %pca_res_scaled=DV.get_dv_pcs(res,'control_fields',{'seed','pokedR'},'lim_time_s',[-Inf -0.25],'kfold',20,'scale',true,'field','log_odds');
   pca_res=DV.get_dv_pcs(res,'control_fields',{'seed','pokedR'},'lim_time_s',time_lim_s,'kfold',1,'scale',false,'field',field,'lim_event',ref_event);
    pca_res2=DV.get_dv_pcs(res,'control_fields',{'seed','pokedR'},'lim_time_s',time_lim_s,'kfold',1,'scale',false,'n_resample_groups',2,'field',field,'lim_event',ref_event);
