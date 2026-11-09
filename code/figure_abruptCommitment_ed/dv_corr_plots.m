@@ -1,8 +1,7 @@
 fig_path=fileparts(which(mfilename));
 params.thre_trial = 1200;
-rat="C211";
-rat_idx = startsWith(path,rat);
-make_dv_corr_data_fig_abruptCommitment_ed;
+if ~exist('rat','var'), rat="C211"; end % rat to plot; set it before running to choose another
+make_dv_corr_data_fig_abruptCommitment_ed; % selects this rat's sessions
 
 regions = [output.region];
 [a,b] = ismember(DV.get_brain_regions,regions);
@@ -65,12 +64,13 @@ common.savefig(gcf,fullfile(fig_path,'fig_abruptCommitment_i_'+rat));
 
 figure('position',[1000 827 346 412]);
 factor=0.15;
+n = numel(regions); % 9 for rats missing a region (A324 BLA, A327 S1, C211 TS); was hard-coded 10
 for i=1:numel(regions)
 z = zeros(size(x));
-y=output(i).col_mean' + (10-i)*factor;hold on
-line([-1 1],[1 1].*(10-i)*factor,'color','k');
-y_lower = output(i).col_mean_lower' + (10-i)*factor;
-y_upper = output(i).col_mean_upper' + (10-i)*factor;
+y=output(i).col_mean' + (n-i)*factor;hold on
+line([-1 1],[1 1].*(n-i)*factor,'color','k');
+y_lower = output(i).col_mean_lower' + (n-i)*factor;
+y_upper = output(i).col_mean_upper' + (n-i)*factor;
 col = x;  % This is the color, vary with x in this case.
 h=shadedErrorBar(x,y,[y-y_lower;y_upper-y],{'color',uberphys.get_brain_region_colors(regions(i)),'LineWidth',2});
 for  k=1:numel(x)
@@ -82,9 +82,9 @@ h.patch.FaceAlpha=0;
 %         'edgecol','interp',...
 %         'linew',2);
 end
-grid on;set(gca,'ytick',(1:10)*factor,'yticklabel',flip(regions));
+grid on;set(gca,'ytick',(1:n)*factor,'yticklabel',flip(regions));
 colormap(cbar);
-set(gca,'xlim',[min(x),max(x)],'ylim',[0 10.5*factor]);
+set(gca,'xlim',[min(x),max(x)],'ylim',[0 (n+0.5)*factor]);
 xlabel('Time relative to nTc (s)');
 uberphys.color_tick_labels;
 common.savefig(gcf,fullfile(fig_path,'fig_abruptCommitment_j'+rat));
@@ -93,9 +93,9 @@ line([0 0],get(gca,'ylim'),'color','k');
 d=[output.col_mean];
 img=d';
 figure;h=imagesc(x,1:numel(regions),img);colormap(bone);
-grid on;set(gca,'ytick',1:10,'yticklabel',regions);
+grid on;set(gca,'ytick',1:n,'yticklabel',regions);
 set(gca,'xlim',[min(x)-0.025,max(x)+0.025]);
-set(gca,'ylim',[0.5 10.5]);
+set(gca,'ylim',[0.5 n+0.5]);
 xlabel('Time relative to nTc (s)');
 uberphys.color_tick_labels;
 grid off;box off;

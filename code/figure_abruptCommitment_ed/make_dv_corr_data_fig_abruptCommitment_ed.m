@@ -18,11 +18,13 @@ path = ["A324_2023_07_19a";
     "C211_2023_12_30";
     "C211_2023_12_31"];
 
-% for i=1:numel(path)
-%     data{i} = load("D:\DVs_latest\" + path(i) + "_DVs.mat");
-% end
+if ~exist('data','var') || numel(data)~=numel(path) % load once; reuse if already in the workspace
+    for i=1:numel(path)
+        data{i} = load("D:\DVs_latest\" + path(i) + "_DVs.mat");
+    end
+end
 
-rat_idx = 1:numel(path);
+rat_idx = startsWith(path,rat); % sessions of the rat chosen in dv_corr_plots.m (was: 1:numel(path), which pooled all rats)
 
 regions=(cellfun(@(x)[x.res{1}.region],data(rat_idx),'UniformOutput',false));
 regions=unique([regions{:}]);
