@@ -1,0 +1,11 @@
+# Imported source: `UberPhys/adrian/analysis/2026_03_04_predicting_dvs_from_motor_latents`
+
+Copied into bondy_charlton_luo_2026 on 2026-11-06 as the code/plots behind v7 panels (Adrian's decision D1).
+
+- **Origin:** `UberPhys` repo, folder `adrian/analysis/2026_03_04_predicting_dvs_from_motor_latents`, last commit `6806540d56ec798e01400b4ade9bd85de4a98532 2026-04-16 Adrian Bondy` (copied from the committed version).
+- **Serves:** v7 Figure S6 panels b–h (b example_trials, c mean_choice_prediction_accuracy, d 'timecourse not resid' + 'timecourse', e lags, f 'best lags', g/h corr_mtx_before_and_after_video_correction + 'scatter plot before after'; g,h are cropped out of the v7 page). Scripts: predicting_choice_from_latents.m, plot_dv_prediction.m, pre_ntc_correlation_matrix.m.
+- **Copied (32):** `best lags not resid.pdf`, `best lags not resid.png`, `best lags.pdf`, `best lags.png`, `corr_mtx_before_and_after_video_correction.pdf`, `corr_mtx_before_and_after_video_correction.png`, `dv_prediction.pdf`, `dv_prediction.png`, `dv_residual_prediction.pdf`, `dv_residual_prediction.png`, `dv_residual_prediction_lag.pdf`, `dv_residual_prediction_lag.png`, `example_trials.pdf`, `example_trials.png`, `lags not resid.pdf`, `lags not resid.png`, `lags.pdf`, `lags.png`, `mean_choice_prediction_accuracy.pdf`, `mean_choice_prediction_accuracy.png`, `plot_dv_prediction.m`, `pre_ntc_correlation_matrix.m`, `predicting_choice_from_latents.m`, `predicting_dvs_from_motor_latents.m`, `randder.m`, `scatter plot before after.pdf`, `scatter plot before after.png`, `timecourse not resid.pdf`, `timecourse not resid.png`, `timecourse.pdf`, `timecourse.png`, `video latents and dv figure.pdf`
+- **Added 2026-11-09 (13 `.fig`, after Adrian reversed the no-.fig rule):** `best lags not resid.fig`, `best lags.fig`, `corr_mtx_before_and_after_video_correction.fig`, `dv_prediction.fig`, `dv_residual_prediction.fig`, `dv_residual_prediction_lag.fig`, `example_trials.fig`, `lags not resid.fig`, `lags.fig`, `mean_choice_prediction_accuracy.fig`, `scatter plot before after.fig`, `timecourse not resid.fig`, `timecourse.fig`.
+- **Not copied:** `.asv` autosaves (0 files).
+
+Paths inside these scripts still point to their original locations; making them runnable here is a later step.
