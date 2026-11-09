@@ -40,7 +40,6 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/windows
 # --- public-release hygiene ---
 .DS_Store
-*.fig
 *.ai
 *.bak
 *BACKUP*
